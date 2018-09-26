@@ -64,7 +64,7 @@ public class Question3 {
 
     // B 스택에 있는 데이터 팝
     public int popB() throws EmptyQuestion3Exception {
-        if (ptrB <= 0)
+        if (ptrB >= (max-1))
             throw new EmptyQuestion3Exception();
         maxA += 1;      // A 스택 데이터 저장 공간이 늘어남
         return stk[++ptrB];
@@ -79,7 +79,7 @@ public class Question3 {
 
     // B 스택에 있는 데이터 피크
     public int peekB() throws EmptyQuestion3Exception {
-        if (ptrB <= 0)
+        if (ptrB >= (max-1))
             throw new EmptyQuestion3Exception();
         return stk[ptrB + 1];
     }
