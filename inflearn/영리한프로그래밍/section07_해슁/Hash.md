@@ -76,7 +76,8 @@
     - 단순히 키를 삭제 할 경우 문제가 발생
       ex) A2, B2, C2가 순서대로 모두 동일한 해쉬함수값을 가져 linear probing으로 충돌을 해결했다면 B2를 삭제 한 후 C2를 검색했을 때 문제가 발생한다.(중간에 값이 비어있어서 C2를 찾지 못함)
     - 따라서 키를 삭제하면 삭제한 이후의 키들을 원래 해쉬값에 맞게 옮겨주어야 한다.
-
+    - ![image1](https://github.com/Kim-JunHyeong/Algorithm/blob/develop/inflearn/%EC%98%81%EB%A6%AC%ED%95%9C%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/section07_%ED%95%B4%EC%8A%81/Open%20Addressing%20-%20%ED%82%A4%EC%9D%98%20%EC%82%AD%EC%A0%9C.PNG)
+    
 ---
 
 - 좋은 해쉬 함수란?
