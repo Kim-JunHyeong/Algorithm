@@ -6,6 +6,7 @@
 > - [BackJoon](https://github.com/Kim-JunHyeong/Algorithm/tree/master/algorithm/src/baekjoon)
 > - [Kakao](https://github.com/Kim-JunHyeong/Algorithm/tree/master/algorithm/src/kakao)
 > - [종만북]()
+> - [inflearn_영리한 프로그래밍]()
 
 #### 참조
 > - DO It! 자료구조와 함께 배우는 알고리즘 입문(자바편)
